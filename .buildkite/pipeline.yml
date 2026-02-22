@@ -1,0 +1,5 @@
+steps:
+  - label: "Test"
+    command: npm ci && npm test
+    agents:
+      queue: dev
