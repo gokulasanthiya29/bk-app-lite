@@ -1,4 +1,4 @@
-const assert = require('node:assert');
+const assert = require('assert');
 const { greet } = require('../index.js');
 
 assert.strictEqual(greet(), 'Hello, World!');
