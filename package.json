@@ -1,0 +1,14 @@
+{
+  "name": "bk-app-lite",
+  "version": "1.0.0",
+  "description": "Node.js test app for Buildkite",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test/index.test.js",
+    "lint": "echo 'No linter yet'"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
