@@ -1,6 +1,11 @@
 steps:
   - label: "Test"
     command: npm ci && npm test
+    parallelism: 2
     agents:
       queue: default
-    parallelism: 3
+  - label: "Long running job"
+    command: sleep 300
+    parallelism: 2
+    agents:
+      queue: default
