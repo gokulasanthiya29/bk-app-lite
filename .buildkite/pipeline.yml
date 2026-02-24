@@ -3,3 +3,4 @@ steps:
     command: npm ci && npm test
     agents:
       queue: default
+    parallelism: 3
